@@ -107,7 +107,28 @@ public class Methods
 }
 ```
 
-* [ ] Output A: 
+* [ ] Output A:
+    ```Output
+    Hello world!
+    
+    Not List:
+    ->int:
+    ->->Type: [System.Int32]	Value: [3]
+    ->string
+    ->->Type: [System.String]	Value: [String]
+    
+    List:
+    ->ints:
+    ->->Type: [System.Collections.Generic.List`1[System.Int32]]	Value: [System.Collections.Generic.List`1[System.Int32]]
+    
+    List of lists:
+    ->lstInts:
+    ->->Type: [System.Collections.Generic.List`1[System.Collections.Generic.List`1[System.Int32]]]	Value: [System.Collections.Generic.List`1[System.Collections.Generic.List`1[System.Int32]]]
+    
+    Bye world!
+    ```
+
+* [ ] Output B: 
   ```Output
   Hello world!
   
@@ -138,7 +159,7 @@ public class Methods
   Bye world!
   ```
 
-* [ ] Output B:
+* [ ] Output C:
   ```Output
   Hello world!
   
